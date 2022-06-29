@@ -7,6 +7,8 @@ def choose():
     option = display.get_inputs(["Please enter a number: "], "")[0]
     if option == '1':
         students_controller.submenu()
+    elif option == '5':
+        display.print_message("Not implemented yet.", True)
     elif option == '2':
         display.print_message("Not implemented yet.", True)
     elif option == '0':
